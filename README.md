@@ -3,10 +3,10 @@ This is the PyTorch implementation of the Gaussian continuation optimizer. It ac
 
 If GCOptimizer is used in your work, please cite:
 ```
-@articleInfo{Ilersich_Nair_2024_Gauss_Cont,
+@article{Ilersich_Nair_2024_Gauss_Cont,
     title = {Deep learning with Gaussian continuation},
     journal = {Foundations of Data Science},
-    pages = {}
+    pages = {},
     year = {2024},
     issn = {},
     doi = {10.3934/fods.2024053},
