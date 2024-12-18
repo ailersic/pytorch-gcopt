@@ -1,7 +1,20 @@
 # PyTorch-GCOpt
-This is the PyTorch implementation of the Gaussian continuation optimizer. It accompanies [this paper]() by Andrew F. Ilersich and Prasanth B. Nair. The code used to produce the results in the paper is in the `experiments` directory.
+This is the PyTorch implementation of the Gaussian continuation optimizer. It accompanies [this paper](https://www.aimsciences.org/article/doi/10.3934/fods.2024053) by Andrew F. Ilersich and Prasanth B. Nair. The code used to produce the results in the paper is in the `experiments` directory.
 
-If GCOptimizer is used in your work, please cite: ...
+If GCOptimizer is used in your work, please cite:
+```
+@articleInfo{Ilersich_Nair_2024_Gauss_Cont,
+    title = {Deep learning with Gaussian continuation},
+    journal = {Foundations of Data Science},
+    pages = {}
+    year = {2024},
+    issn = {},
+    doi = {10.3934/fods.2024053},
+    url = {https://www.aimsciences.org/article/id/6761494fd0b64a5d1d351a65},
+    author = {Andrew F. Ilersich and Prasanth B. Nair},
+    keywords = {Non-convex optimization, deep learning, gradient descent, continuation algorithms}
+}
+```
 
 ## Usage
 Download the `gc_opt.py` file and place it in your working directory. Then import the optimizer:
@@ -38,9 +51,3 @@ for epoch in range(n_epochs):
 
         loss = optimizer.step(closure)
 ```
-
-## Guidelines
-*cont_var0* ...
-*cont_lr* ...
-*cont_reg* ...
-*warmup_epochs* ...
